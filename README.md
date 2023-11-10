@@ -1,7 +1,6 @@
 # Coding Interview Patterns
 
 ## Coding Interview Patterns
-dfghdf
 ### 1. Pattern: Sliding Window
 
 1. Introduction
