@@ -188,3 +188,67 @@
 ### 18. Conclusions
 
 Where to Go from Here [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/gx3j14p5Y3Y)
+
+
+Certainly! Here's the ordering of problem-solving patterns from easy to advanced:
+
+1. **Brute Force**:
+   - Brute force is the simplest approach to problem-solving, making it the easiest pattern to understand and implement. However, it may not always be the most efficient solution, especially for larger inputs.
+
+2. **Two Pointers**:
+   - The two-pointer technique is straightforward and commonly used in problems requiring linear traversal or comparisons in sequences, such as arrays or strings.
+
+3. **Greedy Method**:
+   - Greedy algorithms involve making locally optimal choices at each step with the hope of finding a global optimum. They are intuitive and relatively easy to implement but may require proving correctness and ensuring the greedy choice property.
+
+4. **Sliding Window**:
+   - The sliding window pattern is used to maintain a subset of elements within a larger sequence that satisfies certain constraints. It's moderately complex but very useful for problems involving substring search or subarray sum.
+
+5. **Depth-First Search (DFS)**:
+   - DFS is a graph traversal algorithm that explores as far as possible along each branch before backtracking. It's moderately complex and commonly used for problems involving cycle detection, topological sorting, or finding connected components in graphs.
+
+6. **Breadth-First Search (BFS)**:
+   - BFS is another graph traversal algorithm that explores all the neighbor nodes at the present depth before moving on to the nodes at the next depth level. It's similar in complexity to DFS and is often used for problems involving finding shortest paths or connected components in graphs.
+
+7. **Dynamic Programming**:
+   - Dynamic programming is a powerful technique for solving complex problems by breaking them down into simpler subproblems and solving each subproblem only once. It's more advanced and requires understanding optimal substructure and overlapping subproblems.
+
+8. **Divide and Conquer**:
+   - Divide and conquer involves breaking down a problem into smaller subproblems, solving each subproblem independently, and then combining their solutions. It's more advanced and often used in algorithms like merge sort, quick sort, and binary search.
+
+9. **Backtracking**:
+   - Backtracking is a technique for solving problems by making a series of choices and backtracking when those choices lead to dead ends. It's one of the more advanced problem-solving patterns and is commonly used for generating permutations, combinations, or solving puzzles.
+
+10. **Topological Sorting**:
+    - Topological sorting is an algorithm for arranging the nodes of a directed graph in such a way that every directed edge goes from earlier to later in the sequence. It's an advanced pattern used for scheduling tasks with dependencies or detecting cycles in directed graphs.
+
+This ordering reflects the increasing complexity and difficulty of understanding and implementing each problem-solving pattern. However, keep in mind that the difficulty of applying these patterns may vary depending on the specific problem you're trying to solve.
+
+
+In addition to the problem-solving patterns mentioned earlier, there are a few other patterns and techniques that are commonly asked about in interviews and are useful to know:
+
+1. **Binary Search**:
+   - Binary search is a technique for finding the position of a target value within a sorted array. It's a fundamental algorithmic pattern and is often asked about in interviews, especially for problems involving searching and optimization.
+
+2. **Merge Intervals**:
+   - Merge intervals is a pattern used for problems involving intervals or ranges, such as overlapping intervals or merging intervals. It's commonly used in problems related to scheduling, time management, or resource allocation.
+
+3. **Trie (Prefix Tree)**:
+   - A trie, also known as a prefix tree, is a tree data structure used for efficient retrieval of strings or keys. It's commonly used in problems involving string manipulation, such as autocomplete, spell checking, or searching for words with a common prefix.
+
+4. **Graph Traversal Patterns**:
+   - Besides BFS and DFS, there are other graph traversal patterns that may be useful, such as Depth-Limited Search (DLS), Iterative Deepening Depth-First Search (IDDFS), or A* Search Algorithm. Understanding these patterns can be helpful for solving various graph-related problems efficiently.
+
+5. **Segment Trees and Fenwick Trees**:
+   - Segment trees and Fenwick trees are advanced data structures used for efficient range queries and updates on arrays or sequences. They are commonly used in problems involving range-based queries, such as finding the sum, minimum, maximum, or other aggregate functions over a range of elements.
+
+6. **Suffix Arrays and Suffix Trees**:
+   - Suffix arrays and suffix trees are data structures used for efficiently storing and searching for substrings within a larger string. They are commonly used in problems involving string manipulation, pattern matching, or text processing.
+
+7. **Bit Manipulation**:
+   - Bit manipulation involves manipulating individual bits within binary representations of numbers. It's commonly used in problems involving bitwise operations, such as setting, clearing, or toggling bits, counting bits, or finding the XOR of elements.
+
+8. **Mathematical Patterns**:
+   - Some interview problems may involve mathematical patterns or techniques, such as modular arithmetic, combinatorics, probability, or number theory. Understanding basic mathematical concepts and techniques can be helpful for solving such problems.
+
+It's important to familiarize yourself with these additional patterns and techniques, as they may come up in interviews or coding challenges. Practice problems related to these patterns along with the previously mentioned patterns to strengthen your problem-solving skills and increase your chances of success in interviews.
